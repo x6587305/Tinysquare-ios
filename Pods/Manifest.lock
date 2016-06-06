@@ -1,0 +1,57 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - HappyDNS (0.2.4)
+  - IQKeyboardManager (3.3.7)
+  - Masonry (0.6.4)
+  - MJExtension (2.4.4)
+  - MJRefresh (2.3.2)
+  - Qiniu (7.0.18):
+    - AFNetworking (~> 2.0)
+    - HappyDNS (~> 0.2)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - WeixinSDK (1.4.3)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.6.3)
+  - IQKeyboardManager (~> 3.3.7)
+  - Masonry (~> 0.6.2)
+  - MJExtension (~> 2.4.1)
+  - MJRefresh (~> 2.3.2)
+  - Qiniu (~> 7.0.13)
+  - SDWebImage (~> 3.7.5)
+  - WeixinSDK (~> 1.4.3)
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  HappyDNS: 86ab4be498cc5cc884002b248979cd130cfbe10e
+  IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MJExtension: fabc9e6084f14363ed6828490a98ee516c9cbbfe
+  MJRefresh: 0f6f5e8387970607c26080b44058b229a23065d7
+  Qiniu: 7a9c2a2bbdec02ae84b92051637e1e9ea3d182fb
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  WeixinSDK: 012c72fbaf8cef68afa7b0d0bb81c67a7a5c9136
+
+COCOAPODS: 0.39.0
