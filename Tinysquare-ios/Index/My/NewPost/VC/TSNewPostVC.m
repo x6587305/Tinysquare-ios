@@ -326,9 +326,9 @@
 }
 
 -(BOOL)canDelete:(int)index{
-    if(self.news && [self.news.imgs count]>index){
-        return NO;
-    }
+//    if(self.news && [self.news.imgs count]>index){
+//        return NO;
+//    }
     return YES;
 }
 

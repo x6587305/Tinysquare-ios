@@ -221,6 +221,7 @@
 -(void)resetSubFrameAndData:(TSCard *)card andIndexPath:(NSIndexPath *)indexPath{
     self.card = card;
     self.indexPath = indexPath;
+    [self.backImageView setImage:nil];
      if(self.isFirstDefaule){
          self.backImageView.backgroundColor = COLOR_RGB(255, 183, 0, 1);
      }else{
