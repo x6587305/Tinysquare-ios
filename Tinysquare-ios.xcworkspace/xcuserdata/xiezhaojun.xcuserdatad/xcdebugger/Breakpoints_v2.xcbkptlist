@@ -2306,7 +2306,7 @@
                   moduleName = "Tinysquare"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/xiezhaojun/Desktop/Tinysquare-ios/Tinysquare-ios/Index/My/MessageDetail/TSMessageDetailVC.m"
-                  timestampString = "486869227.447715"
+                  timestampString = "486973527.291293"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "251"
@@ -2321,7 +2321,7 @@
                   moduleName = "Tinysquare"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/xiezhaojun/Desktop/Tinysquare-ios/Tinysquare-ios/Index/My/MessageDetail/TSMessageDetailVC.m"
-                  timestampString = "486869227.447987"
+                  timestampString = "486973527.291414"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "252"
@@ -2440,6 +2440,22 @@
             startingLineNumber = "184"
             endingLineNumber = "184"
             landmarkName = "-doRealSubmit"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tinysquare-ios/Helper/TSUtilties.m"
+            timestampString = "486973435.38532"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
+            landmarkName = "+createLeftReturnButtonBlack:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

@@ -154,7 +154,7 @@
     
     UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
 //    backBtn.backgroundColor = [UIColor blueColor];
-    backBtn.frame = CGRectMake(10, 31, 19, 25);
+    backBtn.frame = CGRectMake(-10, 20, 64, 44);//64, 44
     [backBtn setImage:[UIImage imageNamed:@"nav_back"] forState:UIControlStateNormal];
 //    [backBtn setBackgroundImage:[UIImage imageNamed:@"nav_back"] forState:UIControlStateNormal];
     [topView addSubview:backBtn];

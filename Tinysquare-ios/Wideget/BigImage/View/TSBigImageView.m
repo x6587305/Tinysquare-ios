@@ -63,7 +63,7 @@ static NSString *collectionCell = @"collectionCell";
         self.titleLabel = titleLabel;
         
         UIButton *backBtuuon = [UIButton buttonWithType:UIButtonTypeCustom];
-        backBtuuon.frame = CGRectMake(10, 27, 44, 30);
+        backBtuuon.frame = CGRectMake(10, 27, 64, 44);
 
         [backBtuuon setImage:[UIImage imageNamed:@"nav_back"] forState:UIControlStateNormal];
         [backBtuuon addTarget:self action:@selector(doBack:) forControlEvents:UIControlEventTouchUpInside];

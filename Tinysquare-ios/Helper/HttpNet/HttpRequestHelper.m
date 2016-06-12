@@ -110,8 +110,16 @@
     [dic setObject:@"1.0.0" forKey:@"version"];
     [dic setObject:  [TSUtilties sign:dic] forKey:@"sign"];
 
-    
+   
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+//    NSMutableURLRequest *request = [manager.requestSerializer requestWithMethod:nil URLString:[[NSURL URLWithString:@"xxx" relativeToURL:manager.baseURL] absoluteString] parameters:nil error:nil];
+
+//    AFHTTPRequestOperation *op = [manager HTTPRequestOperationWithRequest:request
+//                                                               success:nil
+//                                                               failure:nil];
+//    [op start];//NSOperation
+//    [op waitUntilFinished];
+    
     [manager POST:url parameters:dic success:^(AFHTTPRequestOperation *operation, id responseObject) {
         if(operation.response.statusCode == 200){
             

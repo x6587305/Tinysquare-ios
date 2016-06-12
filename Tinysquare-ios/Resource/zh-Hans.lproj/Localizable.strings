@@ -1,10 +1,10 @@
-/* 
-  Localizable.strings
-  Tinysquare-ios
-
-  Created by aurora-IOS on 16/4/7.
-  Copyright © 2016年 xiezhaojun. All rights reserved.
-*/
+/*
+ Localizable.strings
+ Tinysquare-ios
+ 
+ Created by aurora-IOS on 16/4/7.
+ Copyright © 2016年 xiezhaojun. All rights reserved.
+ */
 ERROR_API = "api异常,请联系管理员";
 
 ERROR_PLATFORM = "平台错误";

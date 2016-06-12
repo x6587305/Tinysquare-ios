@@ -1,10 +1,10 @@
-/* 
-  Localizable.strings
-  Tinysquare-ios
-
-  Created by aurora-IOS on 16/4/7.
-  Copyright © 2016年 xiezhaojun. All rights reserved.
-*/
+/*
+ Localizable.strings
+ Tinysquare-ios
+ 
+ Created by aurora-IOS on 16/4/7.
+ Copyright © 2016年 xiezhaojun. All rights reserved.
+ */
 ERROR_API ="API error,please contact support";
 
 ERROR_PLATFORM="Platform error";
@@ -17,19 +17,19 @@ ERROR_ACCOUNT_EMPTY="Enter mobile number";
 
 ERROR_ACCOUNT_PATTERN="Please enter a valid mobile number";
 
-ERROR_PASSWORD_EMPTY="Please enter your password";
+ERROR_PASSWORD_EMPTY="Please enter a password";
 
-ERROR_PASSWORD_PATTERN="Your password must be 6-20 characters in length without no special character";
+ERROR_PASSWORD_PATTERN="Your password must be 6-20 characters in length without special characters";
 
-ERROR_EMAIL_EMPTY="Enter an email address";
+ERROR_EMAIL_EMPTY="Please enter an email address";
 
 ERROR_EMAIL_PATTERN="Please enter a valid email address";
 
 ERROR_EMAIL_REGISTER="Please enter your registered email";
 
-ERROR_ACCOUNT_REPEAT="Username already registered";
+ERROR_ACCOUNT_REPEAT="Mobile already registered";
 
-ERROR_ACCOUNT_NOT_EXISTS="Username does not exist";
+ERROR_ACCOUNT_NOT_EXISTS="Mobile number is not registered";
 
 ERROR_ACCOUNT_PASSWORD="Incorrect username or password";
 
@@ -55,15 +55,15 @@ ERROR_CONTENT_LENGTH="Contents cannot exceeds 200 characters";
 
 ERROR_SHOP_EDIT_AUTH="Unauthorized to access";
 
-ERROR_SHOP_NOT_CREATE="Square not setup, Please contact support";
+ERROR_SHOP_NOT_CREATE="Shop not setup, Please contact support";
 
 ERROR_FAVORITED="Already in favourite";
 
 ERROR_SHOP_NAME_EMPTY="Please enter restaurant name";
 
-ERROR_SHOP_NAME_LENGTH="Restaurant name cannot exceed 200 characters";
+ERROR_SHOP_NAME_LENGTH="Restaurant name cannot exceed 50 characters";
 
-ERROR_SHOP_TEL_EMPTY="Contact number";
+ERROR_SHOP_TEL_EMPTY="Please enter Contact number";
 
 ERROR_SHOP_TEL_PATTERN="Please enter a valid number";
 
@@ -77,7 +77,7 @@ ERROR_SHOP_IMGS_EMPTY="Please choose pictures";
 
 ERROR_IMG_PATTERN="Wrong picture format";
 
-ERROR_VIP_CARD_NOT_EXISTS="Card does not exist";
+ERROR_VIP_CARD_NOT_EXISTS="Membership card does not exist";
 
 ERROR_USER_COUPON_NOT_EXISTS="Coupon has been used or expired";
 
@@ -90,4 +90,4 @@ ERROR_COUPON_CODE_EMPTY="Please enter coupon code";
 ERROR_COUPON_CODE_NOT_EXISTS="This code does not exist";
 
 
-ERROR_IMG_PATTERN= "图片格式错误";
+ERROR_IMG_PATTERN= "Wrong picture format";

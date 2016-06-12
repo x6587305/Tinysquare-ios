@@ -421,6 +421,7 @@
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingImage:(UIImage *)image editingInfo:(nullable NSDictionary<NSString *,id> *)editingInfo {
     @weakify(self);
       ImageData *data = [[ImageData alloc]init];
+    
     data.image = image;
     [self.imageDatas addObject:data];
       [self addPicFinish:YES];

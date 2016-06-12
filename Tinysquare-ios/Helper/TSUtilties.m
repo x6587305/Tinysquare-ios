@@ -172,7 +172,7 @@
 {
     UIButton *btn =  [UIButton buttonWithType:UIButtonTypeCustom];
     //nav_back 17 30
-    [btn setFrame:CGRectMake(0, 0, 44 ,30)];
+    [btn setFrame:CGRectMake(0, 0, 64, 44)];
     [btn addTarget:view action:@selector(doBack:) forControlEvents:UIControlEventTouchUpInside];
     [btn setImage:[UIImage imageNamed:@"nav_back"] forState:UIControlStateNormal];
     UIBarButtonItem *leftButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btn];
@@ -190,16 +190,16 @@
 {
     UIButton *btn =  [UIButton buttonWithType:UIButtonTypeCustom];
     //nav_back 17 30
-    [btn setFrame:CGRectMake(0, 0, 44 ,30)];
+    [btn setFrame:CGRectMake(0, 0, 64 ,44)];//44 ,30
     [btn addTarget:view action:@selector(doBack:) forControlEvents:UIControlEventTouchUpInside];
     [btn setImage:[UIImage imageNamed:@"nav_back_black"] forState:UIControlStateNormal];
     UIBarButtonItem *leftButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btn];
     UIBarButtonItem *negativeSeperator = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
     //小屏幕 局左边 16 *2 大屏幕 局左边 10 *3
     if ([UIScreen mainScreen].bounds.size.width > 375) {
-        negativeSeperator.width = 1;
+        negativeSeperator.width = -20;
     }else{
-        negativeSeperator.width = -5;
+        negativeSeperator.width = -25;
     }
     view.navigationItem.leftBarButtonItems = @[negativeSeperator,leftButtonItem];
 }
