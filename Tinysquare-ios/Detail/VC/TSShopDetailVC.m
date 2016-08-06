@@ -234,6 +234,9 @@
         [contentLabel setTextColor:COLOR_SIGLE(142)];
         [headerView addSubview:contentLabel];
         [contentLabel setText:self.shop.tel];
+        UITapGestureRecognizer *ges = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(doCall)];
+        [contentLabel setUserInteractionEnabled:YES];
+        [contentLabel addGestureRecognizer:ges];
         
         top +=26;
     }
@@ -249,6 +252,12 @@
     headerView.frame = CGRectMake(0, 0, kDeiveWidth, CGRectGetMaxY(contentLabel.frame)+10);
     
     return headerView;
+}
+-(void)doCall{
+    if([self.shop.tel length]>0){
+        NSMutableString * str=[[NSMutableString alloc] initWithFormat:@"tel:%@",self.shop.tel];
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:str]];
+    }
 }
 
 -(void)doBack{

@@ -44,7 +44,11 @@
 {
     if([resp isKindOfClass:[SendMessageToWXResp class]])
     {
-        [MyCenterTips showTips:@"share success!"];
+        SendMessageToWXResp *resM = (SendMessageToWXResp *)resp;
+        if(resM.errCode == 0){
+             [MyCenterTips showTips:@"share success!"];
+        }
+       
     }
     
 }

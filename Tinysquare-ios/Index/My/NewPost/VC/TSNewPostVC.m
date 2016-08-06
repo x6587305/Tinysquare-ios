@@ -266,6 +266,10 @@
         [MyCenterTips showCode:@"ERROR_CONTENT_EMPTY"];
         return;
     }
+    if([self.imageDatas count] == 0){
+        [self doRealSubmit];
+        return;
+    }
      [TSHUDView show];
     __block unsigned long needUploadCount = [self.imageDatas count];
     @weakify(self);

@@ -128,7 +128,7 @@
     
     //    message.thumbData = data;
     SendMessageToWXReq *req = [[SendMessageToWXReq alloc] init];
-    req.scene = WXSceneSession;
+    req.scene = type;
     req.bText = NO;
     req.message = message;
     //    BOOL re = [WXApi openWXApp];
